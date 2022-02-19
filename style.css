@@ -1,0 +1,989 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky
+{
+    padding: 15px 0;
+    background: crimson;
+}   
+.navbar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span
+{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span
+{
+    color: #fff;
+}  
+.navbar .menu li
+{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.navbar.navbar.sticky .menu li a:hover
+{
+    color: #fff;
+}
+
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url("images/bg.png")no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+    margin-left: 55px;
+}
+.home .home-content .text-2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+    padding: 12px 36px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover
+{
+    color: crimson;
+    background: none;
+}
+.home .home-content .text-2{
+    font-size: 70px;
+    margin-left: 50px;
+    
+}
+.home .home-content .text-3{
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+/* softwares section styling */
+section{
+    padding: 60px 0;
+}
+.Softwares .support
+{
+    font-family: 'Poppins', sans-serif;
+}
+.Softwares .title
+{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Softwares .software-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-content .left
+{
+    width: 45%;
+}
+.Softwares .software-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.Softwares .software-content .right
+{
+    width: 55%;
+}
+.Softwares .software-content .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-content .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-content a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -290px;
+}
+.Softwares .software-content a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-content .right p
+{
+    text-align: justify;
+}
+
+/* pr styles */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentpr
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentpr .left
+{
+    width: 45%;
+}
+.Softwares .software-contentpr .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentpr .right
+{
+    width: 55%;
+}
+.Softwares .software-contentpr .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentpr .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentpr a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentpr a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentpr .right p
+{
+    text-align: justify;
+}
+
+/* vegas styles */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentvs
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentvs .left
+{
+    width: 45%;
+}
+.Softwares .software-contentvs .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentvs .right
+{
+    width: 55%;
+}
+.Softwares .software-contentvs .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentvs .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentvs a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentvs a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentvs .right p
+{
+    text-align: justify;
+}
+
+/* After Effects styles */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentae
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentae .left
+{
+    width: 45%;
+}
+.Softwares .software-contentae .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentae .right
+{
+    width: 55%;
+}
+.Softwares .software-contentae .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentae .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentae a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentae a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentae .right p
+{
+    text-align: justify;
+}
+
+/* Ai Section */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentai
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentai .left
+{
+    width: 45%;
+}
+.Softwares .software-contentai .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentai .right
+{
+    width: 55%;
+}
+.Softwares .software-contentai .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentai .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentai a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentai a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentai .right p
+{
+    text-align: justify;
+}
+
+/* Windows 11 styling */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-content11
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-content11 .left
+{
+    width: 45%;
+}
+.Softwares .software-content11 .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-content11 .right
+{
+    width: 55%;
+}
+.Softwares .software-content11 .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-content11 .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-content11 a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-content11 a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-content11 .right p
+{
+    text-align: justify;
+}
+
+/* Light room */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentlr
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentlr .left
+{
+    width: 45%;
+}
+.Softwares .software-contentlr .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentlr .right
+{
+    width: 55%;
+}
+.Softwares .software-contentlr .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentlr .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentlr a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentlr a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentlr .right p
+{
+    text-align: justify;
+}
+
+/* MS Office */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentms
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentms .left
+{
+    width: 45%;
+}
+.Softwares .software-contentms .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentms .right
+{
+    width: 55%;
+}
+.Softwares .software-contentms .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentms .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentms a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentms a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentms .right p
+{
+    text-align: justify;
+}
+
+/* VMware Workstation */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentvm
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentvm .left
+{
+    width: 45%;
+}
+.Softwares .software-contentvm .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentvm .right
+{
+    width: 55%;
+}
+.Softwares .software-contentvm .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentvm .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentvm a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentvm a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentvm .right p
+{
+    text-align: justify;
+}
+
+/* GTA */
+
+.section
+{
+    padding: 60px 0;
+}
+
+.Softwares .software-contentgta
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Softwares .software-contentgta .left
+{
+    width: 45%;
+}
+.Softwares .software-contentgta .left img
+{   
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    
+}
+.Softwares .software-contentgta .right
+{
+    width: 55%;
+}
+.Softwares .software-contentgta .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.Softwares .software-contentgta .right .text span
+{
+    color: crimson;
+}
+.Softwares .software-contentgta a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+}
+.Softwares .software-contentgta a:hover
+{
+    color: crimson;
+    background: none;
+}
+.Softwares .software-contentgta .right p
+{
+    text-align: justify;
+}
+
+/* About Section Styling */
+
+section
+{
+    padding: 100px 0;
+}
+.about
+{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.about .title
+{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about .about-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left
+{
+    width: 45%;
+}
+.about .about-content .left img
+{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right
+{
+    width: 55%;
+}
+.about .about-content .right .text
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span
+{
+    color: crimson;
+}
+.about .about-content .right p
+{
+    text-align: justify;  
+}
+.about .about-content .right a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 1px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover
+{
+    color: crimson;
+    background: none;
+}
+
+
+/* support section styling */
+
+section{
+    padding: 60px 0;
+}
+.support
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.support .title
+{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.support .support-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.support .support-content .left
+{
+    width: 45%;
+}
+.support .support-content .left img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.support .support-content .right
+{
+    width: 55%;
+}
+.support .support-content .right .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.support .support-content .right .text span
+{
+    color: crimson;
+}
+
+/* contact */
+
+section
+{
+    padding: 100px 0;
+}
+.contact
+{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.contact .title
+{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact .contact-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact-content .left
+{
+    width: 45%;
+}
+.contact .contact-content .left img
+{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.contact .contact-content .right
+{
+    width: 55%;
+}
+.contact .contact-content .right .text
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .right .text span
+{
+    color: crimson;
+}
+.contact .contact-content .right p
+{
+    text-align: justify;  
+}
+.contact .contact-content .right a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 1px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.contact .contact-content .right a:hover
+{
+    color: crimson;
+    background: none;
+}
+    
